@@ -1,0 +1,172 @@
+/* pages/home/home.wxss */
+
+.banner {
+	width: 750rpx;
+	height: 420rpx;
+}
+
+.swiper-item {
+	width: 750rpx;
+	height: 420rpx;
+
+	background-size: cover;
+	background-position: center;
+}
+
+.swiper-container {
+	width: 750rpx;
+	height: 420rpx;
+}
+
+.app-container {
+	background-color: #f0e9e9;
+	height: 100vh;
+	width: 100vw;
+	border-radius: 40rpx 40rpx 0 0;
+
+	position: absolute;
+	margin-top: -40rpx;
+	z-index: 2;
+}
+
+.content {
+	width: 670rpx;
+	margin: 0 auto;
+}
+
+/* 入口样式 */
+.entry {
+	margin-top: 52rpx;
+	width: 100%;
+	display: flex;
+	box-sizing: border-box;
+}
+
+.entry-item {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.entry-icon {
+	background-size: contain;
+	width: 100rpx;
+	height: 100rpx;
+}
+
+.entry-text {
+	margin-top: 12rpx;
+}
+
+/* 公告栏目 */
+.msg {
+	width: 670rpx;
+	height: 80rpx;
+	background-color: #fff;
+	border-radius: 80rpx;
+	margin-top: 56rpx;
+
+	display: flex;
+}
+
+.msg-title {
+	width: 164rpx;
+	/* TODO 需要探讨图片资源如何存储 */
+	background-image: url("http://192.168.31.161:8000/asset/img/home/title@2x.png");
+	background-size: contain;
+	background-position: center;
+}
+
+.msg-text {
+	font-size: 26rpx;
+	line-height: 80rpx;
+	width: 404rpx;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.msg-btn {
+	width: 68rpx;
+	text-align: center;
+	line-height: 40rpx;
+	height: 40rpx;
+	border: 2rpx solid #4a90e2;
+	color: #4a90e2;
+	border-radius: 6rpx;
+	font-size: 24rpx;
+	margin-top: 20rpx;
+}
+
+/* 热门活动 */
+.hot {
+	margin-top: 60rpx;
+}
+
+.hot-title {
+	display: flex;
+}
+
+.hot-icon {
+	width: 60rpx;
+	height: 40rpx;
+
+	background-image: url("http://192.168.31.161:8000/asset/img/home/icon-热门活动@2x.png");
+	background-size: contain;
+	background-position: center;
+
+	margin-right: 4rpx;
+	margin-top: 4rpx;
+}
+
+.hot-text {
+	font-weight: bold;
+	color: #181818;
+	font-size: 34rpx;
+}
+
+.hot-list {
+	margin-top: 12rpx;
+}
+
+.hot-banner {
+	background-color: #fff;
+	border-radius: 20rpx;
+	overflow: hidden;
+	margin-bottom: 40rpx;
+}
+
+.hot-img {
+	width: 670rpx;
+	height: 318rpx;
+	background-size: contain;
+	background-position: center;
+}
+
+.hot-description {
+	height: 142rpx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 28rpx;
+	font-weight: 500;
+	padding: 0 24rpx;
+}
+
+.hot-des-content {
+	color: #333333;
+	width: 260rpx;
+}
+
+.hot-des-entry {
+	background-color: #ca171d;
+	color: #fff;
+	height: 60rpx;
+	width: 168rpx;
+	border-radius: 60rpx;
+	text-align: center;
+	line-height: 60rpx;
+	font-weight: 400;
+}
